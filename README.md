@@ -8,9 +8,11 @@ Test Activities.
 ## Directory Structure
 
 ```
-Test_Case/        Original test artifacts, organized by test suite and framework
-LLM_Extraction/    Extracted test intents, organized by model and prompting strategy
-Groundtruth/       Reference test intents, split to test-case level
+Test_Case/           Original test artifacts, organized by test suite and framework
+LLM_Extraction/      Extracted test intents, organized by model and prompting strategy
+Groundtruth/         Reference test intents, split to test-case level
+Comparison_Results/  Per-test-case alignment verdicts, LLM extraction vs. Groundtruth
+Peer_Review/         Independent manual annotation records preceding the LLM-assisted pass
 ```
 
 ### Test_Case/
@@ -40,8 +42,18 @@ case level (one file per test case; suites containing more than one test case
 use a `_1`, `_2`, ... suffix). Each record was first produced by LLM extraction
 and then manually reviewed and corrected.
 
-`Peer_Review/` is reserved for the earlier, fully manual annotation records
-that preceded the LLM-assisted pass. Not yet added to this repository.
+### Comparison_Results/
+
+`test_intent_alignment.csv` — one row per test case, with the alignment
+verdict (Fully Aligned / Partially Aligned / Misaligned) for each of the six
+model and prompting-strategy combinations in `LLM_Extraction/`, obtained by
+comparing each extraction against its Groundtruth record.
+
+### Peer_Review/
+
+Spreadsheet with the original independent annotations from three researchers
+per test case (objects, goals, activities), their agreement level, and the
+revised version used as the basis for `Groundtruth/`.
 
 ## Dataset Composition
 
