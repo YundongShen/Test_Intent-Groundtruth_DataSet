@@ -1,0 +1,10 @@
+**Test Object**
+A rich text editor within an iframe
+
+**Test Goal**
+Verify that the custom iframe command can locate the iframe and complete the input and bolding operations.
+
+**Test Activities**
+1. Open the page containing the iframe.
+2. Use the custom command `getIframe` to locate the editor and enter "Hello" to select all.
+3. Click the bold button.

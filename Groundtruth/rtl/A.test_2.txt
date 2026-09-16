@@ -1,0 +1,10 @@
+**Test Object**
+`<A>` Component
+
+**Test Goal**
+Verify that when the component lacks the `href` attribute, the console outputs a warning.
+
+**Test Activities**
+1. Simulate the `console.warn` function.
+2. Render `<A>click link</A>`.
+3. Assert that `console.warn` is called with the parameter `'missing href'`.

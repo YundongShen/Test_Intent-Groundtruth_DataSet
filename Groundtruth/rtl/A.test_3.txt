@@ -1,0 +1,11 @@
+**Test Object**
+`<A>` Component
+
+**Test Goal**
+Confirm that the bound `onClick` callback is triggered correctly when the component is clicked.
+
+**Test Activities**
+1. Prepare a flag variable `io`, initialized to 0, and set to 1 by the `onClick` callback.
+2. Render `<A data-testid="a.clickme" onClick={onClick}>click</A>`.
+3. Find the element using `data-testid` and simulate a click.
+4. Assert that `io` becomes 1 (callback is invoked).
