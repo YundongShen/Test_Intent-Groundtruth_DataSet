@@ -13,6 +13,7 @@ LLM_Extraction/      Extracted test intents, organized by model and prompting st
 Groundtruth/         Reference test intents, split to test-case level
 Comparison_Results/  Per-test-case alignment verdicts, LLM extraction vs. Groundtruth
 Peer_Review/         Independent manual annotation records preceding the LLM-assisted pass
+Onboarding_Evaluation/ Materials for evaluating generated Onboarding Documents
 ```
 
 ### Test_Case/
@@ -54,6 +55,13 @@ comparing each extraction against its Groundtruth record.
 Spreadsheet with the original independent annotations from three researchers
 per test case (objects, goals, activities), their agreement level, and the
 revised version used as the basis for `Groundtruth/`.
+
+### Onboarding_Evaluation/
+
+Materials for evaluating generated Onboarding Documents: a set of test
+suites paired with their generated Onboarding Document, plus a help page
+explaining how to read one. Survey results from this evaluation will be
+added here.
 
 ## Dataset Composition
 
