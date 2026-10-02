@@ -58,10 +58,13 @@ revised version used as the basis for `Groundtruth/`.
 
 ### Onboarding_Evaluation/
 
-Materials for evaluating generated Onboarding Documents: a set of test
-suites paired with their generated Onboarding Document, plus a help page
-explaining how to read one. Survey results from this evaluation will be
-added here.
+Materials for evaluating generated Onboarding Documents.
+
+- `Comparison_Set/`: one folder per test suite, each holding the suite's
+  source file, a baseline onboarding document, and the Intent-based
+  onboarding document.
+- `Survey_Results/`: results of the evaluation survey (to be added).
+- `Survey_Method.md`: how the survey is conducted (to be added).
 
 ## Dataset Composition
 
