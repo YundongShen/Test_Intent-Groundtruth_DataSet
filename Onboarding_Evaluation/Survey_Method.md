@@ -14,11 +14,11 @@ This study compares three ways to read the same test suite.
 
 Each suite has three conditions:
 
-| Condition | Material |
-| --- | --- |
-| **A — Code only** | the original test file. |
-| **B — Code and Baseline Onboarding Document** | the same test file and a general onboarding document. |
-| **C — Code and Intent Onboarding Document** | the same test file and an onboarding document based on extracted test intent. |
+| Condition | Name                                  | Material                                                                      |
+| :-------: | ------------------------------------- | ----------------------------------------------------------------------------- |
+|   **A**   | Code only                             | the original test file.                                                       |
+|   **B**   | Code and Baseline Onboarding Document | the same test file and a general onboarding document.                         |
+|   **C**   | Code and Intent Onboarding Document   | the same test file and an onboarding document based on extracted test intent. |
 
 ### Controls
 
@@ -47,13 +47,15 @@ Test file: {file_name}
 
 Placeholders:
 
-| Placeholder | Value |
-| --- | --- |
-| `{file_name}` | the test file name |
-| `{source}` | its complete source code |
-| `{max_words}` | For each suite, the word count of its Intent Onboarding Document, rounded up to the next multiple of 50. This count uses the Intent version before an overview was added. For example, 452 words gives a 500-word limit. |
+| Placeholder   | Value                    |
+| ------------- | ------------------------ |
+| `{file_name}` | the test file name       |
+| `{source}`    | its complete source code |
+| `{max_words}` | see **Word limit** below |
 
-Model settings: Baseline generation uses Qwen3.5-27B, with thinking disabled and max_tokens set to 8000, as in the Intent generation setting.
+**Word limit:** For each suite, `{max_words}` is the word count of its Intent Onboarding Document, rounded up to the next multiple of 50. This count uses the Intent version before an overview was added. For example, 452 words gives a 500-word limit.
+
+**Model settings:** Baseline generation uses Qwen3.5-27B, with thinking disabled and max_tokens set to 8000, as in the Intent generation setting.
 
 ## Participants and assignment
 
@@ -94,9 +96,14 @@ The page must not tell participants which condition they received or suggest tha
 
 **Response options:** Use the same response options for the main question and the four items below:
 
-| 1 | 2 | 3 | 4 | 5 | Separate option |
-| --- | --- | --- | --- | --- | --- |
-| Not at all clear | Slightly clear | Moderately clear | Very clear | Extremely clear | Cannot judge from this material |
+| Level | Response                        |
+| :---: | ------------------------------- |
+|   1   | Not at all clear                |
+|   2   | Slightly clear                  |
+|   3   | Moderately clear                |
+|   4   | Very clear                      |
+|   5   | Extremely clear                 |
+|   —   | Cannot judge from this material |
 
 **Items:** For the items below, ask: **How clear are these parts of the suite?**
 
@@ -113,9 +120,14 @@ The page must not tell participants which condition they received or suggest tha
 
 **Response options:** Use the same response options for the main question and the four items below:
 
-| 1 | 2 | 3 | 4 | 5 | Separate option |
-| --- | --- | --- | --- | --- | --- |
-| Not at all | A little | A moderate amount | A lot | A great deal | Cannot judge from this material |
+| Level | Response                        |
+| :---: | ------------------------------- |
+|   1   | Not at all                      |
+|   2   | A little                        |
+|   3   | A moderate amount               |
+|   4   | A lot                           |
+|   5   | A great deal                    |
+|   —   | Cannot judge from this material |
 
 **Items:** For the items below, ask: **How much would the material help you with these steps?**
 
