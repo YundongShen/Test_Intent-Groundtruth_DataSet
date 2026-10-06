@@ -60,7 +60,8 @@ Each suite has three conditions:
    - 1 to less than 3 years
    - 3 to less than 6 years
    - 6 years or more
-**BG02 question:**  Before this study, how familiar were you with the following? (1-5 Rating)
+     
+**BG03 question:**  Before this study, how familiar were you with the following? (1-5 Rating)
    - 	Reading JavaScript or TypeScript test code
    - 	Reading Java (JUnit) test code
    - 	Jest or Bun test
