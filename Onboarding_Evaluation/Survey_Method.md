@@ -4,13 +4,13 @@
 
 This study compares three ways to read the same test suite.
 
-- **Question:** It asks whether an Intent Onboarding Document changes how well readers think they understand the suite and how well they think they could plan a new test case.
+- **Research Question(GG):** To what extent can an onboarding document, based on extracted test intent, support a practitioner in comprehending and extending a test suite?
+- **Research Question(YD):** To what extent does an onboarding document support new testers’ comprehension of a test suite in task-based scenarios (e.g.,changing the tests)?
 - **Measured:** The survey measures perceived support.
-- **Not measured:** It does not measure test accuracy or the ability to write a working test.
 
-## Materials
 
 ### Conditions
+- **Survey Method:** We use a between-subjects design, so each participant sees only one condition; this avoids carry-over between conditions and keeps the survey short.
 
 Each suite has three conditions:
 
