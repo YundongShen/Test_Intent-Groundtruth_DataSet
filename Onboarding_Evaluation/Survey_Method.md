@@ -77,7 +77,7 @@ Each suite has three conditions:
 ## Question group 1: Comprehension Questions
 
 **Main question:** After reading the material, how clear is your overall comprehension of this test suite?
-**Response options:** Use the same response options for the main question and the four items below:
+
 | Level | Response                        |
 | :---: | ------------------------------- |
 |   1   | Not at all clear                |
@@ -99,7 +99,6 @@ Each suite has three conditions:
 ## Question group 2: Planning a new test case
 
 **Main question:** If you needed to add a test case to this suite, how much would the material help you plan it?
-**Response options:** Use the same response options for the main question and the four items below:
 
 | Level | Response                        |
 | :---: | ------------------------------- |
