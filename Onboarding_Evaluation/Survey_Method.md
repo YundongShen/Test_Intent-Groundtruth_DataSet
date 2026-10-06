@@ -92,6 +92,7 @@ Each suite has three conditions:
 2. Why each existing test case is included. (Rating 1-5)
 3. How each test's actions and assertions check its intended behavior. (Rating 1-5)
 4. How the cases are grouped and relate to each other. (Rating 1-5)
+
 (Form my side, I think these aspect could find why they understang or not understand thsi test suite)
 
 **Opital: Why question:** Which specific part of the material most shaped your understanding of the suite, and why? What remains unclear?(maybe we can remove this just too much question i think)
