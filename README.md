@@ -63,7 +63,7 @@ Materials for evaluating generated Onboarding Documents.
 - `Comparison_Set/`: one folder per test suite, each holding the suite's
   source file, a baseline onboarding document, and the Intent-based
   onboarding document.
-- `Baseline_Documents/`: for three of the suites, baseline onboarding
+- `Baseline_Documents/`: for four of the suites, baseline onboarding
   documents generated from the test file alone with five alternative
   prompts; each document starts with the prompt that produced it.
 - `Survey_Results/`: results of the evaluation survey (to be added).
